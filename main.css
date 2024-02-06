@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+body{
+    height: 100vh;
+    background: black;
+    
+}
+.wrapper{
+    max-width: 800px;
+    margin: 100px auto;
+    background: #fff;
+    top: -319px;
+    left: -243px;
+    padding: 80px;
+    gap: 10px;
+   
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    text-align: center;
+    
+   
+    
+}
+.filters span{
+    cursor: pointer;
+    margin: 0 40px;
+    font-size: 20px;
+    padding: auto;
+    
+}
+
+.form-control{
+    display: flex;
+    text-align: center;
+
+}
+
+#content{
+    padding: 5px;
+    height: 45px;
+    width: 402px; 
+    resize: none;
+    border-style: groove;
+    border-style: solid;
+    border-color: #333;
+    background: #fff;
+    
+    
+}
+
+
+.form-control button{
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    text-align: center;
+    width: 54px;
+    
+    font-weight: bold;
+    cursor: pointer;
+    border-style: solid;
+     border-color:#8F8F8F;
+    background: #00ff00;
+    border-width: 1px;
+}
+.clear-bnt{
+    background: #8F8F8F;
+    
+    width: 124px;
+    height: 30px;
+    top: -242px;
+    left: 50px;
+    border-radius: 6px;
+    border: 1px;
+    text-align: center;
+    border-width: 1px;
+    
+}
+.bnt{
+    width: 124px;
+    height: 30px;
+    top: -242px;
+    left: 195px;
+    border-radius: 6px;
+    border: 1px;
+    text-align: center;
+    border-style: solid;
+     border-color: #8F8F8F;
+    background: #fff;
+    border-width: 1px;
+    
+
+}
+#List ul li{
+    padding: auto;
+    
+}
+#list-task{
+    width: 460px; 
+    
+    
+    
+}
+
+
+#list-task ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+
+    
+   
+}
+
+#list-task ul li{
+    display: flex;
+    background: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: #8F8F8F;
+    background: #fff;
+    border-width: 1px;
+    
+}
+#list-task ul li div{
+    width: 80%;
+    
+}
+
+
+#list-task ul li a{
+    text-decoration: none;
+    display: block;
+    margin-right: 5px;
+    color:#333;
+    padding: 5px;
+
+}
+
+
+#list-task ul li a:nth-of-type(1){
+    background: #0066ff;
+    border-radius: 5px;
+}
+
+
+#list-task ul li a:nth-of-type(2){
+    background:red ;
+    border-radius: 5px;
+}
+.taskname{
+    top: 3px;
+   
+    text-indent: 15px;
+}
+#list-task ul li lable:nth-of-type(1){
+    text-indent: 15px;
+    border-radius: 5px;
+}
+#list-task ul li lable p.cheked :nth-of-type(1){
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
